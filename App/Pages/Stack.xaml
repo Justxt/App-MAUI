@@ -84,6 +84,16 @@
             </StackLayout>
         </Frame>
 
+        <Button
+               Grid.Column="1"
+               Grid.Row="1"
+               x:Name="CounterBtn"
+               Text="Vamos A Flex"
+               SemanticProperties.Hint="Nos vamos a Flex"
+               Clicked="GoToFlex"
+               WidthRequest="300"
+               HeightRequest="50" />
+
     </StackLayout>
 
 </ContentPage>

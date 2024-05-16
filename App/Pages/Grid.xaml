@@ -50,16 +50,17 @@
                HorizontalOptions="Center"
                VerticalOptions="Center" />
 
-        <AbsoluteLayout HorizontalOptions="Center" VerticalOptions="Center"
-             Grid.Column="1"
-             Grid.Row="1">
-            <Label Text="AbsoluteLayout" />
-            <Button
-             x:Name="CounterBtn"
-             Text="Vamos A Stack"
-             SemanticProperties.Hint="Nos vamos a Stack"
-             Clicked="GoToStack" />
-        </AbsoluteLayout>
+
+        <Button
+               Grid.Column="1"
+               Grid.Row="1"
+               x:Name="CounterBtn"
+               Text="Vamos A Stack"
+               SemanticProperties.Hint="Nos vamos a Stack"
+               Clicked="GoToStack"
+               WidthRequest="300"
+               HeightRequest="50" />
+
 
 
 

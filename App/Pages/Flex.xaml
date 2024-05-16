@@ -5,31 +5,39 @@
              x:Class="App.Pages.Flex"
              Title="Flex">
 
-    <FlexLayout Direction="Column" >
+    <FlexLayout JustifyContent="Center">
 
+        <FlexLayout AlignItems="Start">
+            <Image Source="dotnet_bot.png" WidthRequest="150" HeightRequest="150">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnClickImg" />
+                </Image.GestureRecognizers>
+            </Image>
 
-            <Label Text="1"
-               FontSize="18"
-               BackgroundColor="Aqua" />
+            <Label Text="Flex"/>
+            </FlexLayout>
 
+            <FlexLayout AlignItems="Center">
+            <Image Source="dotnet_bot.png" WidthRequest="150" HeightRequest="150">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnClickImg" />
+                </Image.GestureRecognizers>
+            </Image>
 
-            <Label Text="2"
-               FontSize="18"
-               BackgroundColor="Aqua"/>
+            <Label Text="Lay"/>
+            </FlexLayout>
 
+            <FlexLayout AlignItems="End">
+            <Image Source="dotnet_bot.png" WidthRequest="150" HeightRequest="150">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnClickImg" />
+                </Image.GestureRecognizers>
+            </Image>
 
-            <Label Text="3"
-               FontSize="18"
-               BackgroundColor="Aqua"/>
+            <Label Text="Out"/>
+            </FlexLayout>
 
-            <Label Text="4"
-               FontSize="18"
-               BackgroundColor="Aqua"/>
-
-
-    </FlexLayout>
-
-
+        </FlexLayout>
 
 
 </ContentPage>

@@ -6,6 +6,7 @@
              Title="Absolute">
 
 
+    <ScrollView VerticalOptions="FillAndExpand" Orientation="Vertical">  
     <AbsoluteLayout>
         <BoxView Color="Blue"
                  AbsoluteLayout.LayoutBounds="0.5,0,100,25"
@@ -22,7 +23,17 @@
         <Label Text="Texto Centrado"
                AbsoluteLayout.LayoutBounds="0.5,0.5,110,25"
                AbsoluteLayout.LayoutFlags="PositionProportional" />
-    </AbsoluteLayout>
-    
-    
+        
+            <Button Text="De regeso"
+                Clicked="OnClick"
+                BackgroundColor="BlueViolet"
+                AbsoluteLayout.LayoutBounds="1,1,100,50"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+        </AbsoluteLayout>
+
+    </ScrollView>
+
+
+
+
 </ContentPage>

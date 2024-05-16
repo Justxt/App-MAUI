@@ -6,4 +6,9 @@ public partial class Stack : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void GoToFlex(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Pages.Flex());
+    }
 }

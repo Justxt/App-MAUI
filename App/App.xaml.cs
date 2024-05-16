@@ -8,7 +8,7 @@ namespace App
         {
             InitializeComponent();
 
-            MainPage = new Pestaña();
+            MainPage = new AppShell();
         }
     }
 }

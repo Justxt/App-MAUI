@@ -9,6 +9,6 @@ public partial class Grid : ContentPage
 
 	private void GoToStack(object sender, EventArgs e)
 	{
-        Navigation.PushAsync(new Stack());
+        Navigation.PushAsync(new Pages.Stack());
     }
 }
