@@ -7,7 +7,7 @@
 
 
 
-    <StackLayout Margin="20" >
+    <StackLayout Margin="20">
         <Label Text="Colores primarios" />
         <Frame BorderColor="Black"
                Padding="5"
@@ -85,8 +85,7 @@
         </Frame>
 
         <Button
-               Grid.Column="1"
-               Grid.Row="1"
+               Margin="30"
                x:Name="CounterBtn"
                Text="Vamos A Flex"
                SemanticProperties.Hint="Nos vamos a Flex"
